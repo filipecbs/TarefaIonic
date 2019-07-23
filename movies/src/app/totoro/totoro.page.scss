@@ -1,0 +1,35 @@
+ion-card-subtitle {
+    font-size: 11.5px;
+    color: #0cd1e8;
+    padding-bottom: 2px;
+}
+
+.moviecard img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chipcolor  {
+    background-color: #2093BF;
+}
+
+.chiptext {
+    color: white;
+}
+
+ion-card-content {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #c4c4c4;
+}
+
+.displayflex {
+    display: flex;
+}

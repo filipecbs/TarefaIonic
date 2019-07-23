@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Tonari no Totoro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="moviecard">
+        <img src="/assets/totoro.jpg" alt="totoro">
+        <ion-card-header>
+                    <ion-card-subtitle>Animação, Comédia</ion-card-subtitle>
+                <div class="displayflex ion-justify-content-between ion-align-items-center">
+                    <ion-card-title>Tonari no Totoro</ion-card-title>
+                    <ion-chip class="chipcolor">
+                    <ion-label class="chiptext">4.5</ion-label>
+                    </ion-chip>
+                </div>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-button fill="outline" color="secondary" (click)="presentToast()">quero ver</ion-button>
+            <ion-button fill="outline" color="secondary" (click)="alerta()">eu já vi</ion-button>
+        </ion-card-content>
+    </ion-card>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button>
+            <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+</ion-content>
